@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Play:wght@400;700&display=swap');
+
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a, a:hover{text-decoration: none;}
+
+.font_play{font-family: 'Play', sans-serif;}
+
+section{}
+section .set1{width: 100%; height: 400px; background-image: url(../img/prcenter/bg.jpg);}
+section .set1 h3{text-align: center; font-size: 24px; padding-top: 180px; color: #fff;}
+
+section .set2{width: 1200px; margin: 0 auto; padding-bottom: 150px;}
+section .set2 ul{float: right; display: flex; padding: 20px;}
+section .set2 ul li{margin-left: 20px;}
+section .set2  ul li a::after{content: ">"; padding-left: 10px;}
+section .set2  ul li:nth-child(2) a::after{display: none;}
+section .set2 ul li a{color: #777;}
+
+section .set2 .text{position: relative; padding-top: 170px; width: 850px; height: 400px; margin: 0 auto;}
+section .set2 .text h3{font-size: 30px; color:rgb(85, 85, 85); padding-bottom: 30px;}
+section .set2 .text .bar{background-image: url(../img/prcenter/border_orange.png); width: 40px; height: 3px; background-position: 50% 50%; background-size: cover; margin-bottom: 30px;}
+section .set2 .text p{font-size: 14px; color:rgb(85, 85, 85);}
+section .set2 .text .logo{width: 200px; height: 200px; float: right; padding-left: 50px;}
+
+section .set3{width: 100%; padding-bottom: 150px;}
+section .set3 .set3_1{width: 100%; height: 500px; background-image: url(../img/prcenter/bg2.jpg); background-position: 50% 50%; background-size: cover; }
+
+section .set3 .set3_1 .img{width: 500px; margin: 0 auto; position: relative; transform: translate(-50%, -20%);}
+
+section .set3 .set3_1 .text2{margin: 0 auto; width: 600px; height: 237px; text-align: center; transform: translate(30%, -80%);}
+section .set3 .set3_1 .text2 h3{font-size: 22px; color: #fff; padding-bottom: 20px;}
+section .set3 .set3_1 .text2 span{font-size: 40px; color:rgb(244, 115, 33); font-weight: bold; }
+section .set3 .set3_1 .text2 p{font-size: 14px; color: #fff; line-height: 20px; padding-top: 20px;}
+
+
+section .set4{width: 1200px; margin: 0 auto;}
+section .set4 .warp{display: flex; padding-left: 20px;}
+section .set4 .warp .set4_1{width: 500px; height: 500px;}
+section .set4 .warp .set4_1 .text3{width: 400px;}
+section .set4 .warp .set4_1 .text3 h3{font-size: 22px; color:rgb(85, 85, 85); padding-bottom: 10px;}
+section .set4 .warp .set4_1 .text3 .bar2{background-image: url(../img/prcenter/border.png); width: 30px; height: 3px; background-position: 50% 50%; background-size: cover; margin-bottom: 10px;} 
+section .set4 .warp .set4_1 .text3 p{font-size: 14px; line-height: 25px; padding-bottom: 20px;}
+
+
+

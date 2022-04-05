@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Play:wght@400;700&display=swap');
+
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a, a:hover{text-decoration: none;}
+
+.font_play{font-family: 'Play', sans-serif;}
+
+section{}
+section .set1{background-image: url(../img/customer/bg.jpg); background-position: 50% 50%; background-size: cover; height: 400px; width: 100%;}
+section .set1 h3{text-align: center; padding-top: 12%; color: #fff; font-size: 24px;}
+
+section .set2{width: 1200px; margin: 0 auto;}
+section .set2 ul{display: flex; padding-left: 10px; float: right; padding-top: 20px;}
+section .set2 ul li{margin-left: 10px;}
+section .set2 ul li a::after{content: ">"; margin-left: 10px;}
+section .set2 ul li:nth-child(2) a::after{display: none;}
+section .set2 ul li a{color: #777; }
+
+
+section .set2 .set2_1{width: 1200px; margin: 0 auto; padding-top: 120px;}
+section .set2 .set2_1 .text h3{font-size: 24px; color:rgb(85, 85, 85); padding-bottom: 10px;}
+section .set2 .set2_1 .text .bar{width: 40px; background-image: url(../img/careers/border.png);  height: 4px; background-position: 50% 50%; background-size: cover; margin-bottom: 10px;}
+section .set2 .set2_1 .text h4{font-size: 18px; padding-bottom: 20px; color:rgb(85, 85, 85);}
+section .set2 .set2_1 .text > p{font-size: 14px; margin-bottom: 50px;}
+
+section .set2 .set2_1 .set2_text{display: flex; justify-content: space-between;}
+section .set2 .set2_1 .set2_text span{font-size: 12px; font-weight: bold;}
+section .set2 .set2_1 .set2_text button{border: none; width: 150px; height: 40px; background-color: rgb(244, 115, 33); color: #fff;}
+
+section .set2 .set2_1 .all_box{display: flex; padding-bottom: 120px; padding-top: 20px;}
+section .set2 .set2_1 .all_box .box{width: 350px; height: 100px; border: 1px solid #777; margin-right: 20px;}
+section .set2 .set2_1 .all_box .box p{font-size: 14px; margin: 10px 0 0 10px;}
+section .set2 .set2_1 .all_box .box p:nth-child(3){font-size: 24px;}
+
+section .set2 .set2_1 .all_box .box:nth-child(2),section .set2 .set2_1 .all_box .box:nth-child(3){padding-top: 30px;}
+
+section .set2 .set2_1 .all_box .box img{float: right; padding-right: 10px; padding-bottom: 10px;}
+section .set2 .set2_1 .all_box .box img:first-child{padding-bottom: 20px;}
+
+
+section .set3{width: 1200px; }
+section .set3 .set3_1{display: flex; padding-bottom: 50px;}
+section .set3 .set3_1 .box1{width: 400px; height: 50px; margin-left: 20px; }
+section .set3 .set3_1 .box1 h3{font-size: 14px;}
+section .set3 .set3_1 .box1:nth-child(1){background-color: rgb(244, 115, 33);  border-radius: 50px; text-align: center; padding-top: 15px; color: #fff;}
+section .set3 .set3_1 .box1:nth-child(2),section .set3 .set3_1 .box1:last-child{background-color: #ccc; border-radius: 50px; text-align: center; padding-top: 15px; color: rgb(244, 115, 33);}
+
+section .set3 .set3_2{width: 600px;}
+section .set3 .set3_2 h3{font-size: 14px; padding-bottom: 60px;}
+section .set3 .set3_2 p{font-size: 14px; padding-bottom: 50px;}
+
+
+section .set4{width: 1200px; padding-bottom: 100px; margin: 0 auto; line-height: 50px; }
+section .set4 .box2{background-color: #ccc; width: 1200px; height: 400px; margin: 0 auto; overflow-y:scroll;}
+section .set4 .box2 p{font-size: 14px;}
+
+section .set4 .chkebox{float: right; display: flex;}
+section .set4 .chkebox h3{font-size: 14px; padding-right: 30px;}
+section .set4 .chkebox input{margin-top: 20px;}
+section .set4 .chkebox label{padding-right: 10px; font-size: 14px;}
+
+
+section .set5{width: 1200px; margin: 0 auto; padding-bottom: 50px;}
+section .set5 h3{font-size: 18px; padding-bottom: 50px;}
+section .set5 p{font-size: 14px; padding-bottom: 50px;}
+
+section .set5_1{width: 1200px; height: 100px; border: 1px solid rgb(244, 115, 33); display: flex; align-items: center; padding: 20px; justify-content: center; margin-bottom: 50px;}
+
+section .set5_1 p{width: 600px; height: 50px; margin: 40px;}
+section .set5_1 > button{border: none; width: 100px; height: 40px; background-color: rgb(244, 115, 33); color: #fff;}
+
+section .set5 .button2{ width: 400px; margin: 0 auto; height: 60px; display: flex;}
+section .set5 button{border: none; width: 200px; height: 60px;margin-right: 20px; color: #fff;}
+section .set5 > .button2 button:first-child{background-color: rgb(244, 115, 33);}
+section .set5 > .button2 button:last-child{background-color: #777;}
+
+

@@ -1,0 +1,112 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Play:wght@400;700&display=swap');
+
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a, a:hover{text-decoration: none;}
+
+section{overflow: hidden; }
+#slide_section{width: 400vw; }
+#slide_section .slide{ width: 400vw; position: relative; transition: transform 0.5s;}
+#slide_section .slide > li{float: left; width: 100vw; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; height: 700px;  }
+#slide_section .slide .slide_01{background-image: url(../img/main_slide01.jpg);  }
+#slide_section .slide .slide_02{background-image: url(../img/main_slide02.jpg); }
+#slide_section .slide .slide_03{background-image: url(../img/main_slide03.jpg); }
+#slide_section .slide .slide_04{background-image: url(../img/main_slide04.jpg); }
+#slide_section .slide .text{color: #fff; position: relative; top: 40%; left: 250px;  }
+#slide_section .slide .text h3{font-size: 60px; text-shadow: -4px 4px 10px rgba(0,0,0,0.6); }
+#slide_section .slide .text strong{font-size: 30px; }
+#slide_section .slide .text p{font-size: 16px; margin: 20px 0;}
+#slide_section .slide .text .more{border: 1px solid #fff; width: 145px; height: 40px; text-align: center; padding-top: 10px;}
+#slide_section .slide .text .more a{font-size: 16px; color: #fff;}
+
+
+
+#slide_section .slide .butten{position: absolute; left: 5%; transform: translateY(1260%);}
+
+
+/* main1 */
+#section1{width: 1180px; margin: 0 auto; padding-bottom: 80px; }
+#section1 .top{width: 34px; height: 81px; margin: 0 auto;}
+
+#section1 .main_text{margin: 0 auto; width: 600px; height: 76px; text-align: center; padding-top: 60px; padding-bottom: 50px;}
+#section1 .main_text h3{font-size: 50px; color: #555; padding-bottom: 10px;}
+#section1 .main_text p{font-size: 14px;}
+
+#section1 .set{padding-top: 70px; display: flex; justify-content: center; align-items: center; }
+#section1 .set .set_num{width: 280px; font-size: 12px; margin-right: 20px; line-height: 180%;}
+
+
+#section1 .set .set_num .icon{width: 150px; height: 150px; background-position: 50% 50%; background-size: cover; margin: 0 auto; margin-bottom: 20px;}
+#section1 .set .set_num:nth-child(1) .icon{background-image: url(../img/main_icon01_off.png);}
+#section1 .set .set_num:nth-child(2) .icon{background-image: url(../img/main_icon02_off.png);}
+#section1 .set .set_num:nth-child(3) .icon{background-image: url(../img/main_icon03_off.png);}
+#section1 .set .set_num:nth-child(4) .icon{background-image: url(../img/main_icon04_off.png);}
+
+
+#section1 .set .set_num:nth-child(1):hover .icon{background-image: url(../img/main_icon01_on.png);}
+#section1 .set .set_num:nth-child(2):hover .icon{background-image: url(../img/main_icon02_on.png);}
+#section1 .set .set_num:nth-child(3):hover .icon{background-image: url(../img/main_icon03_on.png);}
+#section1 .set .set_num:nth-child(4):hover .icon{background-image: url(../img/main_icon04_on.png);}
+
+
+#main_part2{width: 1500px; height: 100%; padding-bottom: 50px; margin: 0 auto;}
+.main2 .img{position: relative; background-position: 50% 50%; background-size: cover; width: calc(100% / 3); height: 500px; float: left; }
+.main2 .img:nth-child(1){background-image: url(../img/business_img01.jpg); }
+.main2  .img:nth-child(2){background-image: url(../img/business_img02.jpg);}
+.main2  .img:nth-child(3){background-image: url(../img/business_img03.jpg);}
+
+.main2  .img .tet{text-align: center; padding-top: 250px; color: #f47321; display: none;}
+
+.main2  .img:hover{opacity: 0.8;}
+.main2  .img:hover .tet{display: block;}
+
+
+#section2{width: 1200px; margin: 0 auto; padding-bottom: 80px;}
+#section2 .main_text2{margin: 0 auto; width: 600px; height: 76px; text-align: center; padding-top: 60px; padding-bottom: 50px;}
+#section2 .main_text2 h3{font-size: 50px; color: #555; padding-bottom: 10px;}
+#section2 .main_text2 p{font-size: 14px;}
+
+#section2 .set2{padding-top: 70px; width: 380px; display: inline-block; margin-left: 10px;}
+
+#section2 .set2 h3{font-size: 14px; padding: 20px 0 20px 0; }
+#section2 .set2 p{font-size: 14px;}
+
+
+#img3{background-image: url(../img/banner_img.jpg); height: 300px; background-position: 50% 50%; background-size: cover; }
+
+#img3 .main_text3{width: 1180px; margin: 0 auto; padding-top: 80px;text-align: center;}
+#img3 .main_text3 .banner_logo{background-image: url(../img/banner_logo.png); width: 178px; height: 40px; margin: 0 auto; }
+#img3 .main_text3 p{color: #fff; padding: 10px; font-size: 30px;}
+#img3 .main_text3 .button{border: 1px solid #fff; width: 125px; height: 30px; margin: 0 auto;}
+#img3 .main_text3 .button a{ color: #fff;}
+
+
+
+
+#set3{padding-top: 50px; width: 1180px; margin: 0 auto; display: flex; justify-content: center; align-items: center;}
+
+#set3 .set3_1{width: 380px; height: 240px; background-color: #f47321;position: relative;}
+#set3 .set3_1 h3{padding: 50px 0 10px 20px; color: #fff;}
+#set3 .set3_1 p{padding-left: 20px; padding-bottom: 20px; color: #fff; font-size: 14px;}
+#set3 .set3_1 .p2{position: absolute; bottom: 0; left: 0;}
+#set3 .set3_1 .icon{width: 142px; height: 142px;  top: 20px; right: 10px; position: absolute;}
+
+#set3 .set3_2{display: flex; width: 380px; height: 240px; }
+#set3 .set3_2 .set3_01{margin: 0 auto; padding-top: 40px; }
+#set3 .set3_2 .set3_01 h3{font-size: 18px; text-align: center;}
+#set3 .set3_2 .set3_01 p{font-size: 14px; text-align: center;}
+
+#set3 .set3_3{width: 380px; height: 240px; background-image: url(../img/career_img.jpg);}
+
+#set3 .set3_3 .tet{padding: 50px 0 0 30px; color: #fff;}
+#set3 .set3_3 h3{font-size: 20px; padding-bottom: 10px;}
+#set3 .set3_3 p{font-size: 14px;}
+
+
+#set_3 ul{display: flex; justify-content: center; align-items: center; padding-top: 20px; padding-bottom: 120px;}
+#set_3 ul li{width: 370px; height: 40px; border: 1px solid #555; margin-right: 10px;  text-align: center; padding-top: 10px;}
+#set_3 ul li a{color: #555; }

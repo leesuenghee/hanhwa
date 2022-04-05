@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Play:wght@400;700&display=swap');
+
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a, a:hover{text-decoration: none;}
+
+.font_play{font-family: 'Play', sans-serif;}
+
+
+section{}
+section .set1{width: 100%; height: 400px; background-image: url(../img/careers/bg.jpg); background-position: 50% 50%; background-size: cover;}
+section .set1 h3{text-align: center; color: #fff; position: relative; padding-top: 200px; font-size: 24px;}
+
+section .set2{width: 1200px; margin: 0 auto;}
+section .set2 ul{float: right; display: flex; padding-top: 20px; }
+section .set2 ul li{padding-left: 10px;}
+section .set2 ul li a::after{content: ">"; margin-left: 10px;}
+section .set2  ul li:nth-child(2) a::after{display: none;}
+section .set2  ul li a{color: #777;}
+
+section .set3{width: 1200px; margin: 0 auto; padding-top: 120px;}
+section .set3 > h3{font-size: 24px; color:rgb(85, 85, 85); padding-bottom: 20px;}
+section .set3 .bar{width: 40px; background-image: url(../img/careers/border.png);  height: 4px; background-position: 50% 50%; background-size: cover; margin-bottom: 10px;}
+
+section .set3 .set3_1{width: 1200px; padding-top: 100px; display: flex; justify-content: center; margin: 0 auto;}
+section .set3 .set3_1 .warp{width: 400px; height: 540px; position: relative; text-align: center;}
+section .set3 .set3_1 .warp img{padding-bottom: 50px; }
+section .set3 .set3_1 .warp .text{width: 300px; margin: 0 auto; }
+
+section .set3 .set3_1 .warp .text h4{font-size: 12px; color: #777; text-align: center; padding-bottom: 5px;}
+section .set3 .set3_1 .warp .text h3{font-size: 24px; color:rgb(244, 115, 33); text-align: center; padding: 20px;}
+section .set3 .set3_1 .warp .text span{font-size: 16px; font-weight: bold;}
+section .set3 .set3_1 .warp .text p{padding-top: 20px; font-size: 14px;}
+
+
+section .set4{background-image: url(../img/careers/bg2.jpg); background-position: 50% 50%; background-size: cover; height: 500px; margin-bottom: 120px;}
+section .set4 .logo{float: right; position: relative; transform: translate(-50%, 30%);}
+section .set4 .text{width: 654px; height: 274px; position: absolute; left: 10%; color: #fff; transform: translateY(50%);}
+section .set4 .text h3{font-size: 24px; padding-bottom: 20px;}
+section .set4 .text .bar{width: 40px; background-image: url(../img/careers/border.png);  height: 3px; background-position: 50% 50%; background-size: cover; margin-bottom: 20px;}
+section .set4 .text p{font-size: 14px;}
+
+
+section .set5{width: 1200px; margin: 0 auto;}
+section .set5 .set5_1{}
+section .set5 .set5_1 h3{font-size: 24px; color:rgb(85, 85, 85); padding-bottom: 10px;}
+section .set5 .set5_1 .bar{width: 40px; background-image: url(../img/careers/border.png);  height: 3px; background-position: 50% 50%; background-size: cover; margin-bottom: 10px;}
+section .set5 .set5_1 h4{padding: 10px 0 20px 0; font-size: 18px;}
+section .set5 .set5_1 p{padding-bottom: 40px; font-size: 14px;}
+
+section .set5 .set5_2{padding-bottom: 100px;}
+section .set5 .set5_2 .warp2{display: flex;}
+section .set5 .set5_2 .warp2 .much_slide{margin-left: 20px;}
+section .set5 .set5_2 .warp2 .much_slide .img{background-position: 50% 50%;background-size: cover; width: 400px; height: 200px; position: relative;}
+section .set5 .set5_2 .warp2 .much_slide:nth-child(1) .img{background-image: url(../img/careers/img01.jpg);}
+section .set5 .set5_2 .warp2 .much_slide:nth-child(2) .img{background-image: url(../img/careers/img02.jpg);}
+section .set5 .set5_2 .warp2 .much_slide:nth-child(3) .img{background-image: url(../img/careers/img03.jpg);}
+
+section .set5 .set5_2 .warp2 .much_slide .img .icon{position: relative; left: 170px; top: 40px;}
+section .set5 .set5_2 .warp2 .much_slide .img h3{text-align: center; margin-top: 50px; color: #fff;}
+
+
+section .set5 .set5_2 .warp2 .much_slide .slide1{width: 400px; }
+section .set5 .set5_2 .warp2 .much_slide .slide1 .icon{display: flex; justify-content: space-between; padding: 20px 0 20px 0; border-bottom: 1px solid rgb(244, 115, 33); cursor: pointer;}
+
+/* section .set5 .set5_2 .warp2 .much_slide .slide1 .icon .plus{}
+section .set5 .set5_2 .warp2 .much_slide .slide1 .icon .mins{display: none;} */
+
+section .set5 .set5_2 .warp2 .much_slide .slide1 .icon h3{font-size: 14px; color:rgb(85, 85, 85);}
+
+section .set5 .set5_2 .warp2 .much_slide .slide1 .slide_all{width: 400px; background-color: #ccc; display: none;}
+
+section .set5 .set5_2 .warp2 .much_slide .slide1 .slide_all p:first-child{padding-top: 20px;}
+section .set5 .set5_2 .warp2 .much_slide .slide1 .slide_all p:last-child{padding-bottom: 20px;}
+section .set5 .set5_2 .warp2 .much_slide .slide1 .slide_all p{padding-left: 10px; font-size: 14px; line-height: 25px;}
+
+
+
+
+
+
+
